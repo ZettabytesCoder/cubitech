@@ -1,0 +1,21 @@
+/* src/styles/fonts.scss */
+@font-face {
+    font-family: 'Codec Pro';
+    src: 
+         url('/CodecPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Codec Pro';
+    src: 
+         url('/CodecPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .codecPro {
+    font-family: 'Codec Pro', sans-serif;
+  }
+  
