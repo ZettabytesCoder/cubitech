@@ -20,7 +20,7 @@ const Footer: React.FC<any> = () => {
             src="./cubitech_dark.svg"
             component={"div"}
             sx={{
-              width: 176, // 1414
+              width: 177, // 1414
               height: 42, // 336
             }}
             variant="square"

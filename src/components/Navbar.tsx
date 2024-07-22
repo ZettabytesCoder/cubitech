@@ -13,7 +13,10 @@ interface NavItem {
   path: string;
 }
 
-const navItems: NavItem[] = [{ label: "About", path: "/about" }];
+const navItems: NavItem[] = [
+  { label: "About", path: "/about" },
+  { label: "Cubifood", path: "/cubifood" },
+];
 
 const Navbar: React.FC<any> = () => {
   return (
@@ -22,16 +25,17 @@ const Navbar: React.FC<any> = () => {
       <AppBar component={"nav"} sx={{ justifyContent: "center" }}>
         <Toolbar>
           <Link href={"/"}>
-          <Avatar
-            alt={"Cubitech"}
-            src={"./cubitech_dark.svg"}
-            component={"div"}
-            sx={{
-              width: 176, // 1414
-              height: 42, // 336
-            }}
-            variant={"square"}
-          /></Link>
+            <Avatar
+              alt={"Cubitech"}
+              src={"./cubitech_dark.svg"}
+              component={"div"}
+              sx={{
+                width: 177, // 1414
+                height: 42, // 336
+              }}
+              variant={"square"}
+            />
+          </Link>
           <Box ml={2}>
             {navItems.map((item) => (
               <Button
@@ -44,7 +48,9 @@ const Navbar: React.FC<any> = () => {
             ))}
           </Box>
           <Box flexGrow={1} />
-          <Button color={"inherit"} startIcon={<Login />} href={"#"}>Login</Button>
+          <Button color={"inherit"} startIcon={<Login />} href={"#"}>
+            Login
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

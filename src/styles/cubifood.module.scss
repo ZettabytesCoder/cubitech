@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: 
+       url('/Merriweather-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: 
+       url('/Merriweather-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriWeather {
+  font-family: 'Merriweather', serif;
+}
