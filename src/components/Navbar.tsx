@@ -15,7 +15,8 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: "About", path: "/about" },
-  { label: "Cubifood", path: "/cubifood" },
+  { label: "CubiFood", path: "/cubifood" },
+  { label: "CubiMart", path: "/cubimart" },
 ];
 
 const Navbar: React.FC<any> = () => {

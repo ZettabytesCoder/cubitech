@@ -7,7 +7,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
-const CubiFoodCategories: React.FC<any> = () => {
+const CubiMartCategories: React.FC<any> = () => {
   const categories = [
     { name: "Beverage", imageSrc: "./cubifood/beverage.svg" },
     { name: "Indian", imageSrc: "./cubifood/indian.svg" },
@@ -69,4 +69,4 @@ const CubiFoodCategories: React.FC<any> = () => {
   );
 };
 
-export default CubiFoodCategories;
+export default CubiMartCategories;

@@ -5,6 +5,7 @@ import styles from "@/styles/cubifood.module.scss";
 import CubiFoodPromotions from "@/components/CubiFoodPromotions";
 import CubiFoodTopTreasures from "../components/CubiFoodTopTreasures";
 import CubiFoodCategories from "@/components/CubiFoodCategories";
+import CubiFoodCategorisedView from "@/components/CubiFoodCategorisedView";
 
 const CubiFood: React.FC<any> = () => {
   return (
@@ -58,8 +59,11 @@ const CubiFood: React.FC<any> = () => {
         {/* CubiFood Top Treasures block */}
         <CubiFoodTopTreasures />
 
-        {/* CubiFood Top Treasures block */}
+        {/* CubiFood categories block */}
         <CubiFoodCategories />
+
+        {/* CubiFood categorised view block */}
+        <CubiFoodCategorisedView />
       </main>
     </>
   );
